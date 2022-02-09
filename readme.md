@@ -4,16 +4,22 @@ Here's a quick overview of the know issues and bugs that haven't been fixed yet,
 
     - Lots of repeating code that hasn't been turned into functions or loops
     - The code is not very optimised and can be quite hard to understand
-    - Most functions use global variables to work, so importing them from other js files would mean importing the global variables from the main file to theirs first (not done)
+    - Most functions use global variables to work, so importing them from other js files would mean 
+    importing the global variables from the main file to theirs first (not done)
     - There is only one "enemy"
     - The "enemy" only appears in the first level and doesn't path-find towards you when in sight (random AI)
     - Collision with the "enemy" doesn't stop or restart the level it just causes an error
     - The automatic level generator takes in too much "randomness" which causes issues with generation :
-        - Infinite loops (fixed by stopping the generation if it takes too long and restarting it, but causes "lag")
-        - x and y variables (length and height of new level) have been fixed for testing purposes but seem to break the generation when going back to random
-        - Can sometimes go out of index when generating which causes an error (could be fixed with a "try .. except")(or finding out why it goes out of index)
-        - Some of the generated path may not connect to anything (can be fixed my changing "maxCoef" (line.452) from 5 to 4)
-    - The "saving a level" button has not been implemented but adding them to the array of levels from the .json file should not be a problem
+        - Infinite loops (fixed by stopping the generation if it takes too long and 
+        restarting it, but causes "lag")
+        - x and y variables (length and height of new level) have been fixed for testing purposes but 
+        seem to break the generation when going back to random
+        - Can sometimes go out of index when generating which causes an error 
+        (could be fixed with a "try .. except")(or finding out why it goes out of index)
+        - Some of the generated path may not connect to anything (can be fixed my 
+        changing "maxCoef" (line.452) from 5 to 4)
+    - The "saving a level" button has not been implemented but adding them to the 
+    array of levels from the .json file should not be a problem
     - Time is displayed below the maze which takes 100vh, so you have to scroll to see the time
     - No score added yet
 
