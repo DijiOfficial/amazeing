@@ -1,3 +1,5 @@
+//originally where I designed the createMaze(), serves as an old copy of mazes.js now
+
 const LEVEL_1 = [
   ["*","*","*","*","*","*","*","*","*","*","*",".","*"],
   ["*","S",".",".",".",".",".","*","*",".","*",".","T"],

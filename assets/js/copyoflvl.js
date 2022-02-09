@@ -1,3 +1,5 @@
+// this is a copy in case something happens to the original mazes.js
+
 const LEVEL_1 = [
   ["*","*","*","*","*","*","*","*","*","*","*",".","*"],
   ["*","S",".",".",".",".",".","*","*",".","*",".","T"],
