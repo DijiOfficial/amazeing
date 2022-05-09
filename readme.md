@@ -24,6 +24,7 @@ Here's a quick overview of the know issues and bugs that haven't been fixed yet,
 
 Overall had a lot of fun making it, hopefully I do learn more about coding as to improve my style and efficiency. I will enventually come back to it when I have sufficent knowledge to make it better!
 
+##Test the demo at https://dijiofficial.github.io/amazeing/
 
 # AMAZEing
 
